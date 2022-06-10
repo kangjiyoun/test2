@@ -9,13 +9,11 @@ $(function () {
   }
 
   preload(
-    "../asset/images/bg_blue1.png",
+    "../asset/images/blue_new.png",
+    "../asset/images/opic_blue_bg.png",
     "../asset/images/opic_title.png",
     "../asset/images/ts_title.png",
     "../asset/images/icon_good.png",
-    "../asset/images/icon_uphone.png",
-    "../asset/images/icon_ts.png",
-    "../asset/images/icon_opic.png",
   )
 
 });
