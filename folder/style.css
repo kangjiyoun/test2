@@ -82,9 +82,34 @@ article,aside,details,figcaption,figure,footer,header,main,hgroup,menu,nav,secti
 
 /* style */
 .test-landing__top {
+    position: relative;
     padding: 2.5rem 0 7.5rem;
-    background: #0017a8 url('../asset/images/blue_750.png') no-repeat 50% 50%;
+}
+
+.test-landing__top:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 81.2rem;
+    background: url('../asset/images/bg_blue1.png') no-repeat 50% 50%;
     background-size: cover;
+    z-index: -1;
+}
+
+.test-landing__top:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 81.2rem;
+    width: 100%;
+    height: 110.2rem;
+    background: url('../asset/images/bg_blue2.png') no-repeat 50% 50%;
+    background-size: cover;
+    z-index: -1;
 }
 
 .landing-header {
