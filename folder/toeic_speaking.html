@@ -216,10 +216,24 @@
     </a>
   </footer>
 </article>
+<script>
+  let images = [];
 
+  function preload() {
+    for (let i = 0; i < preload.arguments.lenght; i++) {
+      images[i] = new Image();
+      images[i].src = preload.arguments.src;
+    }
+  }
 
-<script src="https://img.uphone3.com/web/js/jquery-1.10.2.min.js"></script>
-<script src="https://img.uphone3.com/web/js/swiper-bundle.min.js"></script>
+  preload(
+    "../asset/images/blue_new.png",
+    "../asset/images/ts_title.png",
+    "../asset/images/icon_good.png",
+  )
+
+</script>
+
 <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@1/dist/lottie-player.js"></script>
 
