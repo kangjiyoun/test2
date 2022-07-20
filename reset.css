@@ -51,6 +51,10 @@ body {
     background: tomato;
 }
 
+.header {
+    background: palevioletred;
+}
+
 button {
     width: 100px;
     height: 40px;
