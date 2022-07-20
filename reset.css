@@ -47,6 +47,10 @@ table {
     border-spacing: 0;
 }
 
+body {
+    background: tomato;
+}
+
 button {
     width: 100px;
     height: 40px;
